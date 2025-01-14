@@ -1,0 +1,297 @@
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.topBar {
+    height: 40px;
+    background: #333;
+}
+
+.topBar .w {
+    height: 100%;
+}
+
+.topBar .links {
+    float: left;
+}
+
+.topBar .links li {
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.topBar .links li a {
+    color: #b0b0b0;
+}
+
+.topBar .links li:nth-child(-n+9)::after {
+    content: "";
+    float: right;
+    width: 1px;
+    height: 13px;
+    background: #423d37;
+    margin: 15px 7px 0;
+}
+
+.topBar .info {
+    float: right;
+}
+
+.topBar .info li {
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.topBar .info li a {
+    color: #b0b0b0;
+}
+
+.topBar .info li:nth-child(-n+2)::after {
+    content: "";
+    float: right;
+    width: 1px;
+    height: 13px;
+    background: #423d37;
+    margin: 15px 7px 0;
+}
+
+.topBar .info .shopCar {
+    margin-left: 26px;
+    width: 120px;
+    height: 40px;
+    background: #424242;
+    text-align: center;
+}
+
+.topBar .info .shopCar a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    height: 100px;
+}
+
+.header .logo {
+    float: left;
+    margin-top: 22px;
+}
+
+.header .logo a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: url(../images/images/logo_03.png);
+}
+
+.header .nav {
+    float: left;
+    margin-left: 188px;
+}
+
+.header .nav li {
+    float: left;
+    line-height: 100px;
+    margin-right: 20px;
+}
+
+.header .nav li a {
+    color: #333;
+}
+
+.header .searchBar {
+    width: 296px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    float: right;
+    margin-top: 25px;
+}
+
+.header .searchBar input {
+    float: left;
+    width: 244px;
+    height: 100%;
+    border-right: 1px solid #e0e0e0;
+}
+
+.header .searchBar button {
+    float: right;
+    width: 50px;
+    height: 100%;
+    background: #fff;
+    font-size: 16px;
+    border: none;
+}
+
+.main {
+    height: 460px;
+    background-color: pink;
+    position: relative;
+}
+
+.main .aside {
+    width: 234px;
+    height: 460px;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.main .aside li {
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.main .aside li:hover {
+    background: #ff4c00;
+}
+
+.main .aside li a {
+    color: #fff;
+}
+
+.main .aside li::after {
+    content: "";
+    float: right;
+    width: 6px;
+    height: 10px;
+    background: url(../images/sprites.png) -80px -110px;
+    margin-right: 24px;
+    margin-top: 16px;
+}
+
+.main .arrow a {
+    position: absolute;
+    width: 13px;
+    height: 23px;
+    background: #000;
+    top: 215px;
+    background: url(../images/sprites.png);
+}
+
+.main .arrow .prev {
+    left: 244px;
+    background-position: 0 -70px;
+}
+
+.main .arrow .next {
+    right: 11px;
+    background-position: -40px -70px;
+}
+
+.main .sel {
+    position: absolute;
+    bottom: 24px;
+    right: 35px;
+}
+
+.main .sel li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    color: 4f373c;
+    border-radius: 50%;
+    border: 2px solid #847275;
+    margin-left: 10px;
+}
+
+.main .sel .active {
+    background: #b59ca0;
+    border: #6b5c5f;
+}
+
+.ad_mi {
+    height: 170px;
+    width: 1227px;
+    background-color: ping;
+    margin-top: 14px;
+}
+
+.ad_mi>ul>li {
+    float: left;
+    width: 316px;
+    height: 170px;
+    background: #5f5750;
+}
+
+.ad_mi ul>li.links {
+    width: 234px;
+}
+
+.ad_mi>ul>li:nth-child(-n+3) {
+    margin-right: 15px;
+}
+
+.ad_mi .links {
+    padding-left: 9px;
+    padding-top: 9px;
+}
+
+.ad_mi .links li {
+    width: 71px;
+    height: 76px;
+    float: left;
+    border-right: 1px solid#665e57;
+    background: #5f5750;
+    position: relative;
+}
+
+.ad_mi .links li:nth-child(3n) {
+    border: none;
+}
+
+.ad_mi .links li:nth-child(-n+3) {
+    border-bottom: 1px solid #665e57;
+}
+
+.ad_mi .links li:nth-child(-n+2)::after {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    right: -7px;
+    bottom: -7px;
+}
+
+.ad_mi .links li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: #cdcac8;
+    padding-top: 8px;
+}
+
+.ad_mi .links li a .icon {
+    display: block;
+    background: #000;
+    width: 27px;
+    height: 27px;
+    margin: 0 auto;
+    background: url(../images/sq.png);
+    margin-bottom: 6px;
+}
+
+.ad_mi .links li:nth-child(2) .icon {
+    background-position: 0 -37px;
+}
+
+.ad_mi .links li:nth-child(3) .icon {
+    background-position: 0 -74px;
+}
+
+.ad_mi .links li:nth-child(4) .icon {
+    background-position: 0 -111px;
+}
+
+.ad_mi li img {
+    width: 100%;
+    height: 100%;
+}

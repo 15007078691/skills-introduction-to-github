@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* 通用容器类 */
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/* 顶部导航栏样式 */
+.topBar {
+    height: 40px;
+    background-color: #333;
+}
+
+.topBar .links ul li {
+    float: left;
+}
+
+.topBar .links ul li a {
+    display: inline-block;
+    color: #b0b0b0;
+    line-height: 40px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.topBar .links ul li a:hover {
+    color: #fff;
+}
